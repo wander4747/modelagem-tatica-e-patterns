@@ -27,5 +27,15 @@ Uma Entidade é um objeto com suas próprias propriedades (estado, dados) e mét
 Um Agregado é um cluster de objetos (entidades e objetos de valor) unidos por um objeto Raiz Agregado. A Raiz Agregada é um tipo específico de entidade com algumas responsabilidades adicionais para manter a consistência das alterações em objetos em um modelo com associações complexas.
 
 
+### Domain-Service
+Quando temos um comportamento não atrelado a uma Entity ou Value Object, podemos representá-lo como um Domain Service.
+
+Domain Service tem as seguintes características:
+
+- Não mantêm estado
+- Não tem rastreabilidade
+- Podem receber Entities e Value Objects como parâmetro
+- Podem ter dependências de interfaces para serviços externos
+- Executam alguma regra de negócio.
 
 Fonte: https://faun.pub/demystifying-domain-driven-design-b7987c9ed09a
