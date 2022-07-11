@@ -28,6 +28,7 @@ Um Agregado é um cluster de objetos (entidades e objetos de valor) unidos por u
 
 
 ### Domain-Service
+
 Quando temos um comportamento não atrelado a uma Entity ou Value Object, podemos representá-lo como um Domain Service.
 
 Domain Service tem as seguintes características:
@@ -37,5 +38,15 @@ Domain Service tem as seguintes características:
 - Podem receber Entities e Value Objects como parâmetro
 - Podem ter dependências de interfaces para serviços externos
 - Executam alguma regra de negócio.
+
+### Repositories
+
+Um Repositório é uma interface semelhante a uma coleção que é usada pelas Camadas de Domínio e de Aplicação para acessar o sistema de persistência de dados.
+
+`Todo tipo de Agregado persistente terá um Repositório. De um modo geral, existe uma relação de um-para-um entre um tipo de Agregado e um Repositório.`
+
+“Implementing Domain-Driven Design - Vaughn Vernon”
+
+
 
 Fonte: https://faun.pub/demystifying-domain-driven-design-b7987c9ed09a
