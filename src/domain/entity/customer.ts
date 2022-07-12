@@ -26,6 +26,10 @@ export default class Customer {
         return this._rewardPoints;
     }
 
+    changeAddress(address: Address) {
+        this._address = address;
+    }
+
     isActive() :boolean{ 
         return this._active;
     }
@@ -46,6 +50,10 @@ export default class Customer {
       
     set Address(address: Address) {
         this._address = address;
+    }
+
+    get Address(): Address {
+        return this._address;
     }
 
     activate() {
