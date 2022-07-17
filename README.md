@@ -48,5 +48,14 @@ Um Repositório é uma interface semelhante a uma coleção que é usada pelas C
 “Implementing Domain-Driven Design - Vaughn Vernon”
 
 
+### Domain Events
+
+Eventos de domínio são abstrações poderosas para facilitar a comunicação entre contextos delimitados e, eventualmente, como alternativa para persistência.
+
+
+`Use um evento de domínio para capturar uma ocorrência de algo que aconteceu no domínio.`
+
+“Implementing Domain-Driven Design - Vaughn Vernon”
+
 
 Fonte: https://faun.pub/demystifying-domain-driven-design-b7987c9ed09a
