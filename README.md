@@ -64,6 +64,9 @@ Um Módulo serve como um contêiner para um conjunto específico de classes de s
 
 O código dentro de um módulo deve ser altamente coeso e deve haver baixo acoplamento entre classes de módulos diferentes.
 
+### Factory
+
+Uma Factory é um objeto que tem a responsabilidade única de criar outros objetos.
 
 
 Fonte: https://faun.pub/demystifying-domain-driven-design-b7987c9ed09a
