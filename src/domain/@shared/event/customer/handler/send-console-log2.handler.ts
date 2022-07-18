@@ -1,8 +1,0 @@
-import EventHandlerInterface from "../../event-handler.interface";
-import CustomerCreatedEvent from "../customer-created.event";
-
-export default class SendConsoleLog2Handler implements EventHandlerInterface{
-    handle(event: CustomerCreatedEvent): void {
-        console.log(`This is the second console.log of the event: CustomerCreated`)
-    }
-}

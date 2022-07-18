@@ -58,4 +58,12 @@ Eventos de domínio são abstrações poderosas para facilitar a comunicação e
 “Implementing Domain-Driven Design - Vaughn Vernon”
 
 
+### Modules
+
+Um Módulo serve como um contêiner para um conjunto específico de classes de sua aplicação. Em PHP, este seria um namespace específico que contém todas as classes relacionadas a esse conceito específico.
+
+O código dentro de um módulo deve ser altamente coeso e deve haver baixo acoplamento entre classes de módulos diferentes.
+
+
+
 Fonte: https://faun.pub/demystifying-domain-driven-design-b7987c9ed09a
